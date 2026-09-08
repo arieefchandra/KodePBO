@@ -5,8 +5,15 @@ public class TestBuku {
         buku1.isbn = "978-979-29-6104-2";
         buku1.judul = "Dasar Pemrograman Berbasis Objek";
         buku1.penulis = "Abdul Kadir";
+        buku1.penerbit = "Andi Offset";
         buku1.tahunTerbit = 2021;
-        buku1.tampilInfoBuku();
+
+        try {
+            buku1.tampilInfoBuku();
+        } catch (Exception e) {
+            System.out.println("Terjadi Kesalahan");
+        }
+        
 
         Buku buku2 = new Buku();
         buku2.isbn = "978-623-01-0001-1";
