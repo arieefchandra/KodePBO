@@ -5,10 +5,11 @@ public class Laptop {
 
     public Laptop() {
     }
-    public Laptop (String merk, Processor proc) {
-        this.merk = merk;
-        this.proc = proc;
+    public Laptop(String merk) {
+    this.merk = merk;
+    this.proc = new Processor("Generic", 1);    
     }
+    
     public void setMerk(String merk) {
         this.merk = merk;
     }
