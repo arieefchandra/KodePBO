@@ -1,5 +1,5 @@
 package Jobsheet6.Percobaan1;
-public class ClassB {
+public class ClassB extends ClassA {
     public int z;
 
     public void getNilaiZ(){
