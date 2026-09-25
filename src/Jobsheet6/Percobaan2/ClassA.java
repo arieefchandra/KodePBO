@@ -12,6 +12,14 @@ public class ClassA {
         this.y = y;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     public void getNilai(){
         System.out.println("nilai x: " + x);
         System.out.println("nilai y : " + y);

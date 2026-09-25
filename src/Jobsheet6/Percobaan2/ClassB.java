@@ -1,6 +1,6 @@
 package Jobsheet6.Percobaan2;
 
-public class ClassB {
+public class ClassB extends ClassA{
     private int z;
 
     public void setZ(int z) {
@@ -12,6 +12,6 @@ public class ClassB {
     }
 
     public void getJumlah (){
-        System.out.println("jumlah : " + (x + y + z));
+        System.out.println("jumlah : " + (getX() + getY() + z));
     }
 }
