@@ -29,6 +29,5 @@ public class Pegawai {
         info += "NIP : " + this.nip + "\n";
         info += "Nama : " + this.nama + "\n";
         return info;
-
     }
 }
