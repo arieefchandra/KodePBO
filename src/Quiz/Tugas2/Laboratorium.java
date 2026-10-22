@@ -23,7 +23,6 @@ public class Laboratorium {
         if (lp == null || cariLaptop(lp.getKodeAset()) != null) {
             return false;
         }
-
         daftarLaptop.add(lp);
         return true;
     }
@@ -48,12 +47,10 @@ public class Laboratorium {
 
         int jumlah = 0;
         for (Peminjaman p : riwayat) {
-            if (p.isAktif()
-                    && p.getMahasiswa().getNim().equals(m.getNim())) {
+            if (p.isAktif()&& p.getMahasiswa().getNim().equals(m.getNim())) {
                 jumlah++;
             }
         }
-
         return jumlah;
     }
 

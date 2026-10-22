@@ -32,7 +32,6 @@ public class UjiTugas1 {
             return tipe.isInstance(e);
         }
     }
-
     public static void main(String[] args) {
         System.out.println("=== Uji Tugas 1: Enkapsulasi ===");
 

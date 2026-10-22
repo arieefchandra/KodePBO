@@ -62,7 +62,6 @@ public class Laptop {
         if (!tersedia) {
             return false;
         }
-
         tersedia = false;
         return true;
     }
@@ -76,7 +75,6 @@ public class Laptop {
 
     public String info() {
         String status = tersedia ? "tersedia" : "dipinjam";
-        return kodeAset + " | " + merk + " | "
-                + ramGb + " GB | " + status;
+        return kodeAset + " | " + merk + " | "+ ramGb + " GB | " + status;
     }
 }
